@@ -102,3 +102,40 @@
 
     }
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    .sidebar {
+      .top {
+        .logo,
+        .icon {
+          display: none;
+        }
+      }
+
+      display: none;
+  
+      .center {
+        ul {
+          .title {
+            font-size: 14px;
+          }
+  
+          li {
+            .icon {
+              font-size: 20px;
+            }
+  
+            span {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+  
+      .bottom {
+        justify-content: center;
+      }
+    }
+  }
+  

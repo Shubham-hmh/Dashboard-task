@@ -52,3 +52,18 @@
       }
     }
   }
+
+/* Media Query for Tablet and Smaller Screens */
+@media (max-width: 767px) {
+  .widget {
+    flex-direction: column; /* Stack .left and .right vertically on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    text-align: center; /* Center text in .left and .right */
+    margin-bottom: 10px; /* Add some space between .left and .right */
+  }
+}

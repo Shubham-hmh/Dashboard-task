@@ -29,3 +29,25 @@
       }
     }
   }
+
+
+  /* Media Query for Tablet and Smaller Screens */
+  @media (max-width: 767px) {
+    .homeContainer {
+      flex: 1; /* Take full width on smaller screens */
+
+      .widgets,
+      .charts {
+        flex-direction: column; /* Stack widgets and charts vertically */
+      }
+
+      .charts {
+        padding: 20px; /* Adjust padding for charts */
+      }
+
+      .listContainer {
+        margin: 0; /* Remove margin */
+      }
+    }
+  }
+
