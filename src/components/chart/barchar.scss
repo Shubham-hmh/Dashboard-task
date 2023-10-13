@@ -1,0 +1,22 @@
+.chart {
+    .title {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+    .recharts-bar-rectangle {
+      fill: #F0F8FF; /* Light gray color */
+      rx: 5px; /* Border radius for each corner */
+      ry: 5px; /* Border radius for each corner */
+      // filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2)); /* Shadow effect */
+    }
+
+    .recharts-bar-rectangle:hover {
+      filter: none !important;
+      stroke: none !important;
+
+    }
+    
+  }
+  
