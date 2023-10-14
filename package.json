@@ -33,7 +33,7 @@
     "react-dom": "^18.2.0",
     "react-draggable": "^4.4.5",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-svg-circular-progressbar": "^1.0.1",
     "recharts": "^2.4.3",
     "sass": "^1.58.3",
